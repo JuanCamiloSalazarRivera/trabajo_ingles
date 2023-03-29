@@ -1,0 +1,84 @@
+/* style.css */
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+  
+  .card-r {
+    padding-bottom: 10%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(248, 248, 214);
+    flex-grow: 1;
+    margin-top: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  
+  .card-r h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .card-r textarea {
+    width: 97%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .card-r button {
+    display: flex;
+    align-items: flex-start;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card-r button:hover {
+    background-color: #3e8e41;
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+  }
+
+  .card > h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+
+  .display {
+    display: flex;
+    justify-content: center;
+  }
+
+  button {
+    display: flex;
+    margin-top: 5%;
+  }
+
+  
+  .comentarios > button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5%;
+  }
+
+  .comentarios {
+    display: flex;
+  }
